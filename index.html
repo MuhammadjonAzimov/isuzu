@@ -10,9 +10,55 @@
 </head>
 
 <body>
-    <section class="section-1">
+    <section class="section-1" id="home">
+
+        <div class="header-navigation">
+
+            <div class="header-line"></div>
+            <div class="header-line2"></div>
+
+            <nav>
+                <div class="logo">
+                    <p>ISUZU <span>SERVICE CENTER</span></p>
+                </div>
+
+                <ul class="navigation" id="menuList">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#servise">SERVICE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+
+                <img src="./images/Group 1.svg" alt="" onclick="togglemenu()">
+
+            </nav>
+
+        </div>
+
+    </section>
+
+    <section class=" section-2" id="servise">
+
+    </section>
+
+    <section class="section-3" id="contact">
 
     </section>
 </body>
+
+<script>
+    var menuList = document.getElementById("menuList");
+
+    menuList.style.maxHeight = "0px";
+
+    function togglemenu() {
+
+        if (menuList.style.maxHeight == "0px") {
+            menuList.style.maxHeight = "130px";
+        }
+        else {
+            menuList.style.maxHeight = "0px";
+        }
+    }
+</script>
 
 </html>
