@@ -131,8 +131,7 @@ body {
   .section-1 .header-navigation nav .navigation li {
     list-style: none;
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 20px 0;
   }
   .section-1 .header-navigation nav .navigation li a {
     text-decoration: none;
@@ -141,6 +140,7 @@ body {
   }
   .section-1 .header-navigation nav img {
     display: block;
+    cursor: pointer;
   }
 }
 
