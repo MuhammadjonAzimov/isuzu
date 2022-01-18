@@ -139,6 +139,67 @@ body {
         } 
     }
 
+    @media only screen and (max-width:1140px) {
+
+        .container-1 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            padding: 0 12%;
+    
+            .box-container-1 {
+                width: 50%;
+                height: 100%;
+    
+                .box-container-text {
+                   margin-top: 45%;
+    
+                   h2 {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 22px;
+                        line-height: 29px;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+                        color: red;
+                    }
+    
+                   h3 {
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 50px;
+                        line-height: 130%;
+                        color: #000000;
+    
+                        span {
+                            color: green;
+                        }
+                    }
+    
+                   p {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #000000;
+                    opacity: 0.6;
+                   }
+                }
+            }
+    
+            .box-container-2 {
+                width: 50%;
+                height: 100%;
+    
+                .first-mechanic-img {
+                    margin-top: 140px;
+                    width: 400px;
+                }
+            } 
+        }
+
+    }
+
     @media only screen and (max-width:700px) {
 
         .container-1 {
