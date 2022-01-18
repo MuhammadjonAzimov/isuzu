@@ -38,7 +38,7 @@ body {
   width: 100%;
   height: 80px;
   background: gray;
-  padding: 0 100px;
+  padding: 0 12%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,12 +80,124 @@ body {
   font-size: 18px;
 }
 
+.section-1 .header-navigation nav .navigation li a:hover {
+  color: #acacac;
+}
+
 .section-1 .header-navigation nav img {
   display: none;
   width: 35px;
 }
 
+.section-1 .container-1 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 12%;
+}
+
+.section-1 .container-1 .box-container-1 {
+  width: 50%;
+  height: 100%;
+}
+
+.section-1 .container-1 .box-container-1 .box-container-text {
+  margin-top: 45%;
+}
+
+.section-1 .container-1 .box-container-1 .box-container-text h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: red;
+}
+
+.section-1 .container-1 .box-container-1 .box-container-text h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60.55px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.section-1 .container-1 .box-container-1 .box-container-text h3 span {
+  color: green;
+}
+
+.section-1 .container-1 .box-container-1 .box-container-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.section-1 .container-1 .box-container-2 {
+  width: 50%;
+  height: 100%;
+}
+
+.section-1 .container-1 .box-container-2 .first-mechanic-img {
+  margin-top: 140px;
+}
+
 @media only screen and (max-width: 700px) {
+  .section-1 .container-1 {
+    width: 100%;
+    height: 100%;
+    display: inline;
+    padding: 0 30px;
+  }
+  .section-1 .container-1 .box-container-1 {
+    width: 100%;
+    height: 25%;
+  }
+  .section-1 .container-1 .box-container-1 .box-container-text {
+    margin-top: 140px;
+    margin-left: 20px;
+  }
+  .section-1 .container-1 .box-container-1 .box-container-text h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: red;
+  }
+  .section-1 .container-1 .box-container-1 .box-container-text h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #000000;
+  }
+  .section-1 .container-1 .box-container-1 .box-container-text h3 span {
+    color: green;
+  }
+  .section-1 .container-1 .box-container-1 .box-container-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.6;
+  }
+  .section-1 .container-1 .box-container-2 {
+    width: 100%;
+    height: 60%;
+  }
+  .section-1 .container-1 .box-container-2 .first-mechanic-img {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 350px;
+  }
   .section-1 .header-navigation {
     width: 100%;
     position: fixed;
