@@ -271,7 +271,7 @@ body {
     height: 25%;
   }
   .section-1 .container-1 .box-container-1 .box-container-text {
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 20px;
   }
   .section-1 .container-1 .box-container-1 .box-container-text h2 {
@@ -306,9 +306,9 @@ body {
     height: 65%;
   }
   .section-1 .container-1 .box-container-2 .first-mechanic-img {
-    margin-top: 35px;
-    margin-left: 20px;
-    width: 250px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 200px;
   }
 }
 
