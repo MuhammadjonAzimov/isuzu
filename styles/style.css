@@ -259,6 +259,59 @@ body {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .section-1 .container-1 {
+    width: 100%;
+    height: 100%;
+    display: inline;
+    padding: 0 20px;
+  }
+  .section-1 .container-1 .box-container-1 {
+    width: 100%;
+    height: 25%;
+  }
+  .section-1 .container-1 .box-container-1 .box-container-text {
+    margin-top: 120px;
+    margin-left: 20px;
+  }
+  .section-1 .container-1 .box-container-1 .box-container-text h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: red;
+  }
+  .section-1 .container-1 .box-container-1 .box-container-text h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+  }
+  .section-1 .container-1 .box-container-1 .box-container-text h3 span {
+    color: green;
+  }
+  .section-1 .container-1 .box-container-1 .box-container-text p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.6;
+  }
+  .section-1 .container-1 .box-container-2 {
+    width: 100%;
+    height: 65%;
+  }
+  .section-1 .container-1 .box-container-2 .first-mechanic-img {
+    margin-top: 35px;
+    margin-left: 20px;
+    width: 300px;
+  }
+}
+
 .section-2 {
   width: 100%;
   height: 100vh;
