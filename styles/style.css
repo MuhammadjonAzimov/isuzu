@@ -569,6 +569,8 @@
     border-radius: 30px;
     background-position: center;
     background-size: cover;
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
 }
 
