@@ -182,3 +182,98 @@
         }
     }
 }
+
+@media only screen and (max-width:400px) {
+    .section-4 {
+        width: 100%;
+        height: 100vh;
+        padding-left: 0;
+        display: block;
+        background: #474747;
+    
+        .contact-text-box {
+            padding-left: 12%;
+            width: 100%;
+            height: 50%;
+    
+            .contact-text {
+                margin: 0;
+                padding-top: 35%;
+    
+                h2 {
+                    font-size: 33px;
+                    color: green;
+                }
+    
+                h3 {
+                    font-size: 16px;
+                    color: rgb(184, 184, 184);
+                }
+    
+                .contacts {
+                    margin: 10px;
+    
+                    .number {
+                        display: flex;
+                        gap: 20px;
+                        align-items: center;
+    
+                        a {
+                            color: rgb(184, 184, 184);
+                        }
+    
+                        img {
+                            width: 30px;
+                        }
+                    }
+    
+                    .location {
+                        margin-top: 5px;
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+    
+                        a {
+                            text-decoration: none;
+                            color: rgb(184, 184, 184);
+                        }
+    
+                        img {
+                            width: 30px;
+                        }
+                    }
+                }
+    
+                .icons {
+                    display: flex;
+                    justify-content: center;
+                    gap: 30px;
+                    margin-top: 0px;
+    
+                    img {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    
+        .contact-location-box {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .location-box {
+                width: 80%;
+                height: 80%;
+                margin-top: 0px;
+                background-image: url("/images/photo_2022-01-20_14-56-07.jpg");
+                border-radius: 30px;
+                background-position: center;
+                background-size: cover;
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+}
