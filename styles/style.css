@@ -181,7 +181,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 150%;
-    color: #414141;
+    color: #b8b8b8;
   }
   .section-1 .container-1 .box-container-2 {
     width: 50%;
@@ -342,7 +342,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 150%;
-    color: #414141;
+    color: #b8b8b8;
   }
   .section-1 .container-1 .box-container-2 {
     width: 100%;
@@ -411,7 +411,7 @@
     height: 60%;
   }
   .section-2 .right-about-container .about-text {
-    margin-top: 45%;
+    margin-top: 40%;
     margin-left: 0;
   }
   .section-2 .right-about-container .about-text h4 {
