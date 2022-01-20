@@ -548,7 +548,7 @@
     height: 100vh;
     padding-left: 0;
     display: block;
-    background: #E5E5E5;
+    background: #474747;
   }
   .section-4 .contact-text-box {
     padding-left: 12%;
@@ -565,7 +565,7 @@
   }
   .section-4 .contact-text-box .contact-text h3 {
     font-size: 16px;
-    color: #414141;
+    color: #b8b8b8;
   }
   .section-4 .contact-text-box .contact-text .contacts {
     margin: 10px;
